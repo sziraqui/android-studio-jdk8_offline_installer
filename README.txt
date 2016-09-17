@@ -9,6 +9,8 @@
 >> By Sarfaraz Iraqui (@sziraqui)
 
 >>>Install instructions
+Download the .tar.gz package and extract its contents. Always use the latest available dothemagic.sh file.
+instead of using the file within the .tar.gz.
 1. Open a new terminal from the directory containing dothemagic.sh file. [Right click > open terminal ]
 2. In the terminal type "chmod 755 dothemagic.sh
 3. Ensure that you are NOT currently in root or sudo session.
