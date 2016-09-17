@@ -75,10 +75,8 @@ if [ -e /home/${user}/x86_64.szi ]
 			sudo dpkg -i AS_depends/trusty/depends/subdepends/*.deb
 			sudo dpkg -i AS_depends/trusty/depends/*.deb
 	fi
-#	sudo apt-get -f install
 fi
 echo " "
-#sudo apt-get install lib32z1 lib32ncureses5 lib32bz2-1.0 lib32bz2-1.0:i386 lib32stdc++6
 echo ">>>>>> Configuring ADB usb access..."
 sudo cp linux_usb_access/70-android-tools-fastboot.rules /lib/udev/rules.d
 echo " "
